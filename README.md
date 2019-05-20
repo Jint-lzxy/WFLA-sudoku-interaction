@@ -24,6 +24,7 @@ a program for WFLA-sudoku club(which runs on WeChat)
 
 ## 缺点
 
-  - 性能较差，部分安卓机会卡。
+  
+  - 性能较差，部分安卓机会卡。
   - 未知bug。
 
