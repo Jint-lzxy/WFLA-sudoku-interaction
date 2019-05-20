@@ -1,0 +1,73 @@
+<!--pages/about/index.wxml-->
+<view class='container'>
+  <view class='hdBar tip' wx:if="{{tip && tip.title}}">
+    <text class='title'>世外数独互动</text>
+  </view>
+  <view class='bdContent tip' wx:if="{{tip && tip.content}}">
+    {{tip.content}}
+  </view>
+  <view class='hdBar'>
+    <text class='title'>所有蓝色且有下划线的字符均可单击复制</text>
+  </view>
+  <view class='hdBar'>
+    <text class='title'>关于数独...</text>
+  </view>
+  <!--<view style="width:{{windowWidth}}px; height:{{windowWidth * 1.7}}px; margin: 5px auto 10px;">-->
+  <view class='bdContent'>
+    <!--<image src='/images/demo.jpg' bindtap='prevImg'></image>-->
+    数独是源自18世纪瑞士的一种数学游戏。是一种运用纸、笔进行演算的逻辑游戏。玩家需要根据9×9盘面上的已知数字，推理出所有剩余空格的数字，并满足每一行、每一列、每一个粗线宫（3×3）内的数字均含1-9，不重复。
+  </view>
+  <text class='br'></text>
+  <view class='bdContent'>
+数独盘面是个九宫，每一宫又分为九个小格。在这八十一格中给出一定的已知数字和解题条件，利用逻辑和推理，在其他的空格上填入1-9的数字。使1-9每个数字在每一行、每一列和每一宫中都只出现一次，所以又称“九宫格”。
+  </view>
+  <view class='hdBar'>
+    <text class='title'>图例</text>
+  </view>
+  <view class='bdContent'>1. 红色的数字表示：这个格子内的数字不符合数独的填写规范，可能需要改正。</view>
+  <text class='br'></text>
+  <view class='bdContent'>2. 绿色的数字表示：这个格子目前未检查出错误。</view>
+  <text class='br'></text>
+  <view class='bdContent'>3. 如果难度为3及以上，我们将采用Special Judge，这时，任何格子的颜色均无意义，需等到最后统一评测。</view>
+  <view class='hdBar'>
+    <text class='title'>数据存储说明</text>
+  </view>
+  <view class='bdContent'>
+    目前，在完成数独的情况下，您的成绩会缓存在本地，删除世外数独互动、卸载微信均会使您成绩数据丢失。
+  </view>
+  <text class='br'></text>
+  <view class='bdContent'>在下一版本，（即V2.0.0版本时）我们将会提供云端存储功能，现在因为开发组<del>很穷</del>，无法支付大额费用。</view>
+  <view class='hdBar'>
+    <text class='title'>关于数据生成</text>
+  </view>
+  <view class='bdContent'>
+    1. 我们生成的数独（只要是难度在2及以下的），均能保证有且只有一组可行解！
+  </view>
+  <text class='br'></text>
+  <view class='bdContent'>2. 难度为3时，我们有Special Judge来判断是否正确（源代码不能也不方便分享）。</view>
+  <view class='hdBar'>
+    <text class='title'>Bug、建议与反馈</text>
+  </view>
+  <view class='bdContent'>
+    <view>Email:
+      <text class='link' bindtap='copy' data-type="email">WinnieJt20050921@126.com</text>
+      <text class='bdContent'>（开发组主邮箱）</text>
+      <text class='br'></text>
+      <text class='link' bindtap='copy' data-type="email">swzx_yuj@wflms.com</text>
+      <text class='bdContent'>（于骏老师的邮箱）</text>
+    </view>
+  </view>
+  <view class='hdBar'>
+    <text class='title'>版权声明</text>
+  </view>
+  <view class='bdContent'>
+    <view>由世外数独社组织创建</view>
+  </view>
+  <view class='footer'>
+    <view>世外数独互动 V1.0.5</view>
+    <!-- <text>© </text> -->
+    <view>© 2017{{currentYear}} 世外数独社,
+      <text bindtap='copy' class='link' data-type="website">www.wflms.cn</text>
+    </view>
+  </view>
+</view>

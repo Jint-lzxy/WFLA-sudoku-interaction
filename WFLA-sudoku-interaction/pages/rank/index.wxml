@@ -1,0 +1,4 @@
+<!--pages/rank/index.wxml-->
+<view class='container empty'>
+  <text>排行功能现在只有管理员与开发组人员才能看到！之后的版本将会上线，敬请期待！</text>
+</view>
