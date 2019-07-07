@@ -3,7 +3,7 @@ a program for WFLA-sudoku club(which runs on WeChat)
 ## ©2017~2019 By @[WinnieJt](https://github.com/WinnieJt)
 ****
 <h1 align="center">
-	<img width="170" src="https://public.noi.top/image/1558353745833.jpeg" />
+	<img width="170" src="https://public.noi.top/image/1562510096767.png" />
   	<p>世外数独互动</p>
 </h1>
 
