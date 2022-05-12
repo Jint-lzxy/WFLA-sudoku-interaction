@@ -1,6 +1,6 @@
 # WFLA-sudoku-interaction
 a program for WFLA-sudoku club(which runs on WeChat)
-## ©2017~2019 By @[WinnieJt](https://github.com/WinnieJt)
+## ©2017~2022 By @[冷酔閑吟](https://github.com/Jint-lzxy)
 ****
 <h1 align="center">
 	<img width="170" src="https://github.com/WinnieJt/WFLA-sudoku-interaction/blob/master/WFLA-sudoku-interaction/images/trim.jpg" />
